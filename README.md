@@ -1,4 +1,4 @@
 # PythonLearning
 
 #Garuda Linux
-sudo pacman -python3
+#sudo pacman -python3
