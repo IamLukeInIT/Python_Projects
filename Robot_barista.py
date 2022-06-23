@@ -3,9 +3,7 @@ print("Hello, welcome to Luke Coffe")
 name = input("What is your name?\n")
 #we don't serve for evil Ben and Kate
 if name == "Ben" or name == "Kate":
-    evil_status = input("Are you evil? \n")
-    if evil_status != "Yes" or evil_status != "No":
-        print("Say yes or no")    
+    evil_status = input("Are you evil? \n")   
     if evil_status == "Yes":
         print("You're not welcome here " + name + "Get out from here!")    
         exit()
@@ -29,10 +27,10 @@ if name != "Ben" or name != "Kate":
         quantity = input("How many " + order + " you want?\n")
         first_bill = price * int(quantity)
 
-        additional_order = input("Do you want another kind of coffe?\n")
+        additional_order = input("Do you want another kind of coffee?\n")
         if additional_order == "Yes":
             add_order = input("What would do you like?\n")
-            if add_order == "Black Coffe":
+            if add_order == "Black Coffee":
                 add_price = 8
             elif add_order == "Espresso":
                 add_price = 10
